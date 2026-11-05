@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quick Page Notes</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <header>
+    <h1>Quick Page Notes</h1>
+  </header>
+
+  <section class="composer">
+    <div class="page-info">
+      <div id="pageTitle" class="page-title"></div>
+      <div id="pageUrl" class="page-url"></div>
+    </div>
+    <textarea id="noteInput" maxlength="4000"
+      placeholder="Write a note about this page... (Ctrl+Enter to save)"></textarea>
+    <div class="row">
+      <span id="counter" class="muted">0 / 4000</span>
+      <button id="saveBtn" class="primary">Save note</button>
+    </div>
+    <div id="status" class="status" role="status"></div>
+  </section>
+
+  <section class="list-section">
+    <input id="search" type="search" placeholder="Search notes, titles, URLs...">
+    <div id="count" class="muted"></div>
+    <ul id="notes"></ul>
+    <div id="empty" class="empty" hidden></div>
+  </section>
+  <footer class="credit">Made by <a href="https://websolapp.net" target="_blank" rel="noopener noreferrer">websolapp.net</a></footer>
+  <script src="popup.js"></script>
+</body>
+</html>

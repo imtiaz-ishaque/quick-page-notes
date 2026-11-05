@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Page Notes",
+  "version": "1.0.0",
+  "description": "Save notes while browsing. Every note keeps the page title and URL. Search, edit, delete, and sync across your Chrome browsers.",
+  "author": "Web Solution Application",
+  "homepage_url": "https://websolapp.net",
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_title": "Quick Page Notes",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
